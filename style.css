@@ -1,0 +1,1375 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.3;
+  list-style: none;
+  text-decoration: none;
+}
+
+@font-face {
+  font-family: "myfont";
+  src: url(/Baloo-Regular.ttf), url(/BalooBhaijaan-Regular.ttf);
+}
+@font-face {
+  font-family: "mycustomfont";
+  src: url(Baloo2-Regular.ttf);
+}
+p {
+  font-family: "mycustomfont", Baloo2;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 1.4;
+}
+
+h2 {
+  font-family: "myfont", Baloo;
+  font-size: 45px;
+  font-weight: 400;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.navigation nav {
+  width: 100%;
+}
+.navigation nav .logo {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.navigation nav ul {
+  float: right;
+  margin: 40px 20px 0;
+}
+.navigation nav li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 15px;
+}
+.navigation nav a {
+  font-family: "myfont", Baloo;
+  color: rgb(0, 62, 84);
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: 400;
+}
+.navigation nav a:hover {
+  color: rgb(215, 123, 65);
+}
+.navigation nav label {
+  display: block;
+}
+.navigation nav label i {
+  color: rgb(0, 62, 84);
+  font-size: 30px;
+  float: right;
+  background-color: white;
+  padding: 10px;
+  margin: 20px 40px;
+  cursor: pointer;
+  display: none;
+}
+.navigation nav #check {
+  display: none;
+}
+
+.banner {
+  margin: 10px 0;
+}
+.banner .info {
+  padding: 0 50px;
+  margin-top: 0;
+}
+.banner .we {
+  color: rgb(0, 62, 84);
+  font-weight: 400;
+  font-size: 45px;
+}
+.banner h1 {
+  font-family: "myfont", Baloo;
+  color: rgb(0, 62, 84);
+  font-size: 90px;
+  font-weight: 400;
+  margin: 30px 0 0 0;
+}
+.banner p {
+  font-family: "myfont", Baloo;
+  font-weight: 400;
+  color: rgb(0, 62, 84);
+}
+.banner .pictures {
+  overflow: hidden;
+  margin: 5px;
+  display: flex;
+  align-items: end;
+}
+.banner .pictures img {
+  margin: 5px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.banner .pictures .pile {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  align-content: center;
+}
+.banner .pile2 {
+  display: flex;
+  justify-content: space-between;
+  overflow: hidden;
+  align-items: start;
+}
+.banner .pile2 .below1 {
+  opacity: 20%;
+  width: 300px;
+  height: 60px;
+  margin-left: 9px;
+}
+.banner .pile2 .below2 {
+  opacity: 20%;
+  width: 299px;
+  height: 60px;
+}
+.banner .pile2 .below3 {
+  opacity: 20%;
+  width: 255px;
+  height: 60px;
+}
+.banner .pile2 .below4 {
+  opacity: 20%;
+  width: 350px;
+  height: 60px;
+  margin-right: 7px;
+}
+.banner .more {
+  display: flex;
+}
+.banner .more .line {
+  color: rgb(215, 123, 65);
+  width: 70px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+  height: 3px;
+  border: rgb(215, 123, 65);
+  border-color: rgb(215, 123, 65);
+  background-color: rgb(215, 123, 65);
+  border-radius: 5px;
+}
+
+.US {
+  margin: 60px 0 60px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.US .wed {
+  color: rgb(215, 123, 65);
+}
+.US .About {
+  display: flex;
+  flex-direction: column;
+  padding: 50px;
+}
+.US .About p {
+  color: rgb(0, 62, 84);
+}
+.US .image img {
+  width: 500px;
+  height: 500px;
+}
+
+#Services {
+  padding: 50px;
+  background-color: rgb(11, 57, 77);
+  color: white;
+}
+#Services .serve {
+  margin-top: 50px;
+  margin-bottom: 40px;
+  color: white;
+}
+#Services h4 {
+  font-family: "mycustomfont", Baloo;
+  font-weight: 700;
+  font-size: 28px;
+}
+#Services .offer {
+  margin-bottom: 50px;
+}
+#Services .offer #carouselIndicators {
+  position: relative;
+}
+#Services .offer #carouselIndicators .carousel-indicators {
+  position: absolute;
+  top: 100%;
+}
+#Services .offer #carouselIndicators .carousel-indicators a {
+  color: rgb(215, 123, 65);
+  border-radius: 50%;
+  width: 15px;
+  height: 15px;
+}
+#Services .card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(0, 62, 84);
+  padding: 10px;
+  color: white;
+  border-color: rgb(0, 62, 84);
+  border: 0px;
+  width: 400px;
+  margin-right: 10px;
+}
+#Services .card .head {
+  color: rgb(215, 123, 65);
+  margin: 10px;
+}
+#Services .card img {
+  width: 372px;
+  height: 162px;
+}
+#Services .card .hr {
+  width: 380px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  background-color: rgb(215, 123, 65);
+  height: 1px;
+  color: rgb(215, 123, 65);
+}
+
+#Subscribe .textimage {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 50px;
+  margin: 70px 0 70px 0;
+  color: rgb(215, 123, 65);
+}
+#Subscribe .textimage .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  justify-items: start;
+  margin-right: 20px;
+}
+#Subscribe .textimage .text h2 {
+  display: block;
+}
+#Subscribe .textimage a {
+  background-color: rgb(0, 62, 84);
+  color: white;
+  width: 360px;
+  height: 60px;
+  padding: 10px;
+  text-decoration: none;
+  display: flex;
+  font-family: "myfont", Baloo;
+  font-size: 20px;
+  font-weight: 500;
+  justify-content: center;
+  align-items: center;
+}
+#Subscribe .textimage img {
+  width: 100%;
+}
+
+#Contact-Us {
+  padding: 50px;
+  margin: 0 0 70px 0;
+  background-image: linear-gradient(#EBECEE 0%, #ECEDEF 0.01%, #F5F6F8 100%);
+}
+#Contact-Us img {
+  width: 500px;
+  height: 90vh;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+#Contact-Us .form-control {
+  color: rgba(10, 49, 64, 0.5);
+  font-family: "mycustomfont", Baloo2;
+  font-size: 20px;
+  font-weight: 400;
+  border: 4px;
+  border-color: rgba(237, 238, 240, 0.671);
+  width: 560px;
+  height: 60px;
+  padding: 20px;
+  border-radius: 2px;
+}
+#Contact-Us form {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#Contact-Us form .textarea {
+  border: 3px;
+  padding: 20px;
+  width: 560px;
+  font-size: 20px;
+  font-weight: 400;
+}
+#Contact-Us .submit {
+  font-family: "mycustomfont", Baloo2;
+  font-size: 20px;
+  font-weight: 700;
+  padding: 20px;
+  width: 560px;
+  height: 60px;
+  background-color: rgb(0, 62, 84);
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+#Contact-Us h2 {
+  color: rgb(215, 123, 65);
+}
+#Contact-Us p {
+  color: rgb(0, 62, 84);
+}
+
+.footer1 {
+  color: white;
+  padding: 50px;
+  background-image: url("/Group 9.png");
+  background-size: cover;
+  background-position: right center;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+.footer1 h2 {
+  display: block;
+}
+.footer1 .con {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: start;
+}
+.footer1 .con i {
+  margin: 5px 0 10px 0;
+}
+.footer1 .con p {
+  margin: 0 30px;
+}
+
+.footer2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+.footer2 img {
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+@media only screen and (max-width: 575.98px) {
+  .banner {
+    overflow: hidden;
+  }
+  .banner h2 {
+    color: rgb(0, 62, 84);
+    margin: 0 0 0 8px;
+  }
+  .banner .we {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0 0 0 8px;
+  }
+  .banner .info {
+    padding: 0 25px 25px 25px;
+    display: flex;
+    flex-direction: column;
+  }
+  .banner h1 {
+    font-family: "myfont", Baloo;
+    color: rgb(0, 62, 84);
+    font-size: 40px;
+    font-weight: 400;
+    margin: 0 0 0 8px;
+  }
+  .banner p {
+    font-family: "myfont", Baloo;
+    font-weight: 400;
+    font-size: 14px;
+    color: rgb(0, 62, 84);
+  }
+  .banner .pictures {
+    overflow: hidden;
+    margin: auto;
+  }
+  .banner .pictures img {
+    margin: 5px;
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .banner .pictures .rr {
+    display: none;
+  }
+  .banner .pictures .rr1 {
+    display: none;
+  }
+  .banner .pictures .rr2 {
+    display: none;
+  }
+  .banner .pictures .pile {
+    display: flex;
+    flex-direction: column;
+  }
+  .banner .pile2 {
+    display: none;
+  }
+  .banner .more {
+    display: flex;
+  }
+  .banner .more p {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  .banner .more .line {
+    color: rgb(215, 123, 65);
+    width: 50px;
+    margin-top: 7px;
+    height: 3px;
+    border: rgb(215, 123, 65);
+    border-color: rgb(215, 123, 65);
+    background-color: rgb(215, 123, 65);
+    border-radius: 5px;
+  }
+  .US {
+    overflow: hidden;
+    margin: 0;
+  }
+  .US .wed {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .US .image {
+    display: none;
+  }
+  .US .About {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 25px;
+  }
+  .US .About p {
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(0, 62, 84);
+  }
+  #Services {
+    overflow: hidden;
+    padding: 20px;
+    background-color: rgb(11, 57, 77);
+    color: white;
+  }
+  #Services .serve {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 20px;
+    color: white;
+  }
+  #Services h4 {
+    font-family: "mycustomfont", Baloo;
+    font-weight: 700;
+    font-size: 23px;
+  }
+  #Services .offer {
+    margin-bottom: 50px;
+  }
+  #Services .offer #carouselIndicators {
+    position: relative;
+  }
+  #Services .offer #carouselIndicators .carousel-indicators {
+    display: none;
+    position: absolute;
+    top: 100%;
+  }
+  #Services .offer #carouselIndicators .carousel-indicators a {
+    color: rgb(215, 123, 65);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+  }
+  #Services .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 62, 84);
+    padding: 5px;
+    color: white;
+    border-color: rgb(0, 62, 84);
+    border: 0px;
+    width: 330px;
+    margin-bottom: 10px;
+  }
+  #Services .card .head {
+    color: rgb(215, 123, 65);
+    margin: 10px;
+  }
+  #Services .card img {
+    margin-top: 10px;
+    width: 290px;
+    height: 140px;
+  }
+  #Services .card .hr {
+    width: 280px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgb(215, 123, 65);
+    height: 1px;
+    color: rgb(215, 123, 65);
+  }
+  #Services .card p {
+    font-family: "mycustomfont", Baloo;
+    font-weight: 400;
+    font-size: 14px;
+  }
+  #Subscribe {
+    overflow: hidden;
+  }
+  #Subscribe .textimage {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    margin: 0;
+    color: rgb(215, 123, 65);
+  }
+  #Subscribe .textimage .text {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+  #Subscribe .textimage .text .wed {
+    font-size: 20px;
+    font-weight: 400;
+  }
+  #Subscribe .textimage a {
+    background-color: rgb(0, 62, 84);
+    color: white;
+    width: 200px;
+    height: 40px;
+    text-decoration: none;
+    display: flex;
+    font-family: "myfont", Baloo;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+  }
+  #Contact-Us {
+    overflow: hidden;
+    padding: 25px;
+    margin: 0;
+    background-image: linear-gradient(#EBECEE 0%, #ECEDEF 0.01%, #F5F6F8 100%);
+  }
+  #Contact-Us img {
+    display: none;
+  }
+  #Contact-Us .form-control {
+    color: rgba(10, 49, 64, 0.5);
+    font-family: "mycustomfont", Baloo2;
+    font-size: 12px;
+    font-weight: 400;
+    border: 4px;
+    border-color: rgba(237, 238, 240, 0.671);
+    width: 330px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 2px;
+  }
+  #Contact-Us form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #Contact-Us form .textarea {
+    border: 3px;
+    padding: 20px;
+    width: 330px;
+    font-size: 14px;
+    font-weight: 400;
+  }
+  #Contact-Us .submit {
+    font-family: "mycustomfont", Baloo2;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 10px;
+    width: 330px;
+    height: 40px;
+    background-color: rgb(0, 62, 84);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  #Contact-Us h2 {
+    color: rgb(215, 123, 65);
+    font-size: 20px;
+    font-weight: 400;
+  }
+  #Contact-Us p {
+    color: rgb(0, 62, 84);
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .footer1 {
+    overflow: hidden;
+    color: white;
+    padding: 30px;
+    background-image: url("/Group 9.png");
+    background-position: left center;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+  }
+  .footer1 h2 {
+    display: block;
+    font-size: 20px;
+    font-weight: 400;
+  }
+  .footer1 .con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+  }
+  .footer1 .con i {
+    margin: 5px 5px 0 10px;
+  }
+  .footer1 .con p {
+    margin: 5px 15px 0 5px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+  }
+  .footer2 img {
+    -o-object-fit: cover;
+       object-fit: cover;
+    width: 50%;
+  }
+}
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+  .banner {
+    margin: 10px 0;
+  }
+  .banner .info {
+    padding: 0 35px;
+  }
+  .banner .we {
+    color: rgb(0, 62, 84);
+    font-weight: 400;
+    font-size: 25px;
+  }
+  .banner h1 {
+    font-family: "myfont", Baloo;
+    color: rgb(0, 62, 84);
+    font-size: 60px;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+  .banner p {
+    font-size: 16px;
+    font-family: "myfont", Baloo;
+    font-weight: 400;
+    color: rgb(0, 62, 84);
+  }
+  .banner .pictures {
+    overflow: hidden;
+  }
+  .banner .pictures .rr {
+    width: 320px;
+  }
+  .banner .pictures .rr1 {
+    display: none;
+  }
+  .banner .pictures .rr2 {
+    display: none;
+  }
+  .banner .pictures img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .banner .pictures .pile {
+    display: flex;
+  }
+  .banner .pictures .pile img {
+    width: 350px;
+  }
+  .banner .pile2 {
+    display: flex;
+    overflow: hidden;
+    align-items: start;
+  }
+  .banner .pile2 .below1 {
+    opacity: 20%;
+    width: 350px;
+    height: 60px;
+    margin-left: 5px;
+  }
+  .banner .pile2 .below2 {
+    opacity: 20%;
+    width: 330px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  .banner .pile2 .below3 {
+    display: none;
+  }
+  .banner .pile2 .below4 {
+    display: none;
+  }
+  .banner .more {
+    display: flex;
+  }
+  .banner .more .line {
+    color: rgb(215, 123, 65);
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 3px;
+    border: rgb(215, 123, 65);
+    border-color: rgb(215, 123, 65);
+    background-color: rgb(215, 123, 65);
+    border-radius: 5px;
+  }
+  .US {
+    margin: 40px 0 40px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .US .wed {
+    color: rgb(215, 123, 65);
+    font-size: 25px;
+  }
+  .US .image {
+    display: none;
+  }
+  .US .About {
+    display: flex;
+    flex-direction: column;
+    padding: 35px;
+  }
+  .US .About p {
+    font-size: 16px;
+    font-weight: 700;
+    color: rgb(0, 62, 84);
+  }
+  #Services {
+    padding: 35px;
+    background-color: rgb(11, 57, 77);
+    color: white;
+  }
+  #Services .serve {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 25px;
+  }
+  #Services .offer {
+    margin-bottom: 30px;
+  }
+  #Services .offer #carouselIndicators {
+    position: relative;
+  }
+  #Services .offer #carouselIndicators .carousel-indicators {
+    position: absolute;
+    top: 100%;
+  }
+  #Services .offer #carouselIndicators .carousel-indicators a {
+    color: rgb(215, 123, 65);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 15px;
+  }
+  #Services .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 62, 84);
+    padding: 5px;
+    color: white;
+    border-color: rgb(0, 62, 84);
+    border: 0px;
+    width: 220px;
+    margin-right: 5px;
+  }
+  #Services .card .head {
+    color: rgb(215, 123, 65);
+    margin: 5px;
+  }
+  #Services .card img {
+    width: 200px;
+    height: 142px;
+  }
+  #Services .card .hr {
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(215, 123, 65);
+    height: 1px;
+    color: rgb(215, 123, 65);
+  }
+  #Services .card p {
+    font-family: "mycustomfont", Baloo;
+    font-size: 12px;
+  }
+  #Services .card h4 {
+    font-size: 20px;
+  }
+  #Subscribe .textimage {
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+    margin: 70px 0 70px 0;
+    color: rgb(215, 123, 65);
+  }
+  #Subscribe .textimage .text {
+    display: flex;
+    margin-right: 20px;
+  }
+  #Subscribe .textimage .text h2 {
+    display: block;
+    font-size: 25px;
+  }
+  #Subscribe .textimage a {
+    background-color: rgb(0, 62, 84);
+    color: white;
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+    font-family: "myfont", Baloo;
+    font-size: 14px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+  }
+  #Subscribe .textimage img {
+    width: 100%;
+    height: 40vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #Contact-Us {
+    padding: 35px;
+    margin: 0 0 70px 0;
+    background-image: linear-gradient(#EBECEE 0%, #ECEDEF 0.01%, #F5F6F8 100%);
+  }
+  #Contact-Us img {
+    width: 100%;
+    height: 50vh;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  #Contact-Us .form-control {
+    color: rgba(10, 49, 64, 0.5);
+    font-family: "mycustomfont", Baloo2;
+    font-size: 16px;
+    font-weight: 400;
+    border: 4px;
+    border-color: rgba(237, 238, 240, 0.671);
+    width: 345px;
+    height: 40px;
+    padding: 20px;
+    border-radius: 2px;
+  }
+  #Contact-Us form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #Contact-Us form .textarea {
+    border: 3px;
+    padding: 20px;
+    width: 345px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  #Contact-Us .submit {
+    font-family: "mycustomfont", Baloo2;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 20px;
+    width: 345px;
+    height: 60px;
+    background-color: rgb(0, 62, 84);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  #Contact-Us h2 {
+    color: rgb(215, 123, 65);
+    font-size: 25px;
+  }
+  #Contact-Us p {
+    color: rgb(0, 62, 84);
+    font-size: 16px;
+    margin: 0 0 10px;
+  }
+  .footer1 {
+    color: white;
+    padding: 35px;
+    background-image: url("/Group 9.png");
+    background-size: cover;
+    width: 100%;
+    height: 40vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer1 h2 {
+    display: block;
+    font-size: 25px;
+  }
+  .footer1 .con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+  }
+  .footer1 .con i {
+    margin: 5px 0 10px 0;
+  }
+  .footer1 .con p {
+    margin: 0 30px;
+    font-size: 16px;
+  }
+  .footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .footer2 img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media only screen and (min-width: 993px) and (max-width: 1024px) {
+  .banner {
+    margin: 10px 0;
+  }
+  .banner .info {
+    padding: 0 35px;
+  }
+  .banner .we {
+    color: rgb(0, 62, 84);
+    font-weight: 400;
+    font-size: 30px;
+  }
+  .banner h1 {
+    font-family: "myfont", Baloo;
+    color: rgb(0, 62, 84);
+    font-size: 75px;
+    font-weight: 400;
+    margin-top: 15px;
+  }
+  .banner p {
+    font-size: 19px;
+    font-family: "myfont", Baloo;
+    font-weight: 400;
+    color: rgb(0, 62, 84);
+  }
+  .banner .pictures {
+    overflow: hidden;
+  }
+  .banner .pictures .rr {
+    width: 320px;
+  }
+  .banner .pictures .rr2 {
+    display: none;
+  }
+  .banner .pictures img {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .banner .pictures .pile {
+    display: flex;
+  }
+  .banner .pictures .pile img {
+    width: 350px;
+  }
+  .banner .pile2 {
+    display: flex;
+    overflow: hidden;
+    align-items: start;
+  }
+  .banner .pile2 .below1 {
+    opacity: 20%;
+    width: 350px;
+    height: 60px;
+    margin-left: 5px;
+  }
+  .banner .pile2 .below2 {
+    opacity: 20%;
+    width: 330px;
+    height: 60px;
+    margin-right: 20px;
+  }
+  .banner .pile2 .below3 {
+    opacity: 20%;
+    width: 255px;
+    height: 60px;
+  }
+  .banner .pile2 .below4 {
+    display: none;
+  }
+  .banner .more {
+    display: flex;
+  }
+  .banner .more .line {
+    color: rgb(215, 123, 65);
+    width: 70px;
+    margin-left: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    height: 3px;
+    border: rgb(215, 123, 65);
+    border-color: rgb(215, 123, 65);
+    background-color: rgb(215, 123, 65);
+    border-radius: 5px;
+  }
+  .US {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 35px;
+  }
+  .US .wed {
+    color: rgb(215, 123, 65);
+    font-size: 30px;
+  }
+  .US .About {
+    display: flex;
+    flex-direction: column;
+  }
+  .US .About p {
+    font-size: 19px;
+    font-weight: 700;
+    color: rgb(0, 62, 84);
+  }
+  .US .image img {
+    width: 400px;
+    height: 400px;
+  }
+  #Services {
+    padding: 35px;
+    background-color: rgb(11, 57, 77);
+    color: white;
+  }
+  #Services .serve {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-size: 30px;
+  }
+  #Services .offer {
+    margin-bottom: 30px;
+  }
+  #Services .offer #carouselIndicators {
+    position: relative;
+  }
+  #Services .offer #carouselIndicators .carousel-indicators {
+    position: absolute;
+    top: 100%;
+  }
+  #Services .offer #carouselIndicators .carousel-indicators a {
+    color: rgb(215, 123, 65);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    margin: 15px;
+  }
+  #Services .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(0, 62, 84);
+    padding: 5px;
+    color: white;
+    border-color: rgb(0, 62, 84);
+    border: 0px;
+    width: 310px;
+    margin-right: 5px;
+  }
+  #Services .card .head {
+    color: rgb(215, 123, 65);
+    margin: 5px;
+  }
+  #Services .card img {
+    width: 200px;
+    height: 142px;
+  }
+  #Services .card .hr {
+    width: 200px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    background-color: rgb(215, 123, 65);
+    height: 1px;
+    color: rgb(215, 123, 65);
+  }
+  #Services .card p {
+    font-family: "mycustomfont", Baloo;
+    font-size: 14px;
+  }
+  #Services .card h4 {
+    font-size: 20px;
+  }
+  #Subscribe .textimage {
+    display: flex;
+    flex-direction: row;
+    padding: 35px;
+    margin: 70px 0 70px 0;
+    color: rgb(215, 123, 65);
+  }
+  #Subscribe .textimage .text {
+    display: flex;
+    margin-right: 20px;
+  }
+  #Subscribe .textimage .text h2 {
+    display: block;
+    font-size: 30px;
+  }
+  #Subscribe .textimage a {
+    background-color: rgb(0, 62, 84);
+    color: white;
+    width: 250px;
+    height: 30px;
+    padding: 5px;
+    text-decoration: none;
+    display: flex;
+    font-family: "myfont", Baloo;
+    font-size: 19px;
+    font-weight: 500;
+    justify-content: center;
+    align-items: center;
+  }
+  #Subscribe .textimage img {
+    width: 93%;
+    height: 35vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  #Contact-Us {
+    padding: 35px;
+    margin: 0 0 70px 0;
+    background-image: linear-gradient(#EBECEE 0%, #ECEDEF 0.01%, #F5F6F8 100%);
+  }
+  #Contact-Us img {
+    width: 100%;
+    height: 50vh;
+    -o-object-fit: fill;
+       object-fit: fill;
+  }
+  #Contact-Us .form-control {
+    color: rgba(10, 49, 64, 0.5);
+    font-family: "mycustomfont", Baloo2;
+    font-size: 19px;
+    font-weight: 400;
+    border: 4px;
+    border-color: rgba(237, 238, 240, 0.671);
+    width: 450px;
+    height: 60px;
+    padding: 20px;
+    border-radius: 2px;
+  }
+  #Contact-Us form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #Contact-Us form .textarea {
+    border: 3px;
+    padding: 20px;
+    width: 450px;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  #Contact-Us .submit {
+    font-family: "mycustomfont", Baloo2;
+    font-size: 19px;
+    font-weight: 700;
+    padding: 20px;
+    width: 450px;
+    height: 60px;
+    background-color: rgb(0, 62, 84);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+  }
+  #Contact-Us h2 {
+    color: rgb(215, 123, 65);
+    font-size: 30px;
+  }
+  #Contact-Us p {
+    color: rgb(0, 62, 84);
+    font-size: 19px;
+    margin: 0 0 10px;
+  }
+  .footer1 {
+    color: white;
+    padding: 35px;
+    background-image: url("/Group 9.png");
+    background-size: cover;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .footer1 h2 {
+    display: block;
+    font-size: 30px;
+  }
+  .footer1 .con {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: start;
+  }
+  .footer1 .con i {
+    margin: 5px 0 10px 0;
+  }
+  .footer1 .con p {
+    margin: 0 30px;
+    font-size: 19px;
+  }
+  .footer2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+  }
+  .footer2 img {
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media only screen and (min-width: 560px) and (max-width: 993px) {
+  .navigation nav .logo {
+    width: 58%;
+  }
+  .navigation nav label i {
+    font-size: 40px;
+    margin: 60px 70px;
+  }
+  .navigation nav label #btn {
+    display: block;
+  }
+  .navigation nav ul {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    top: 100px;
+    left: -108%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+  .navigation nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .navigation nav ul li a {
+    font-size: 40px;
+    color: rgb(0, 62, 84);
+  }
+  .navigation nav #check:checked ~ ul {
+    left: -3%;
+    z-index: 2;
+  }
+  .navigation nav #check:checked ~ label #btn {
+    display: none;
+  }
+  .navigation nav #check:checked ~ label #cancel {
+    display: block;
+  }
+  .navigation nav #check:checked ~ .logo {
+    display: none;
+  }
+}
+@media (max-width: 559px) {
+  .navigation nav .logo {
+    width: 58%;
+  }
+  .navigation nav label i {
+    font-size: 30px;
+    margin: 30px 40px;
+  }
+  .navigation nav label #btn {
+    display: block;
+  }
+  .navigation nav ul {
+    position: absolute;
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    top: 40px;
+    left: -108%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: 1s;
+  }
+  .navigation nav ul li {
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  .navigation nav ul li a {
+    font-size: 30px;
+    color: rgb(0, 62, 84);
+  }
+  .navigation nav #check:checked ~ ul {
+    left: -5%;
+    z-index: 2;
+  }
+  .navigation nav #check:checked ~ label #btn {
+    display: none;
+  }
+  .navigation nav #check:checked ~ label #cancel {
+    display: block;
+  }
+  .navigation nav #check:checked ~ .logo {
+    display: none;
+  }
+}/*# sourceMappingURL=style.css.map */
