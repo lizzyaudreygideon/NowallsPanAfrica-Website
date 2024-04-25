@@ -41,6 +41,7 @@ h2 {
      object-fit: cover;
 }
 .navigation nav ul {
+  font-family: "mycustomfont", Baloo2;
   float: right;
   margin: 40px 20px 0;
 }
@@ -464,7 +465,7 @@ h2 {
   .US .About {
     display: flex;
     flex-direction: column;
-    padding: 25px 25px;
+    padding: 25px 40px;
   }
   .US .About p {
     font-size: 14px;
@@ -478,7 +479,6 @@ h2 {
     color: white;
   }
   #Services .serve {
-    margin-top: 30px;
     margin-bottom: 20px;
     font-size: 20px;
     color: white;
@@ -1332,7 +1332,7 @@ h2 {
   }
   .navigation nav label i {
     font-size: 30px;
-    margin: 30px 40px;
+    margin: 20px 15px;
   }
   .navigation nav label #btn {
     display: block;

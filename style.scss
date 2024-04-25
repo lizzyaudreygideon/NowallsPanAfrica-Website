@@ -63,11 +63,13 @@ h2{
      }
 
      ul{
+        font-family:  "mycustomfont", Baloo2 ;
         float: right;
         margin: 40px 20px 0 ;
      }
 
      li{
+
         display: inline-block;
         line-height: 80px;
         margin: 0 15px;
@@ -477,7 +479,7 @@ h2{
     
     color: $ordinary;
     padding: 50px ;
-    background-image: url("/Group\ 9.png");
+    background-image: url("/Group 9.png");
     background-size: cover;
    
     background-position: right center;
@@ -569,6 +571,7 @@ h2{
         // margin-top: 15px;
     
         h2{
+            
             color: $secondary;
             margin: 0 0 0 8px;
              }
@@ -677,7 +680,7 @@ h2{
       .About{
         display: flex;
         flex-direction: column;
-         padding: 25px 25px;
+         padding: 25px 40px;
     
         p{
         font-size: 14px;
@@ -696,7 +699,7 @@ h2{
         color: $ordinary;
     
         .serve{
-            margin-top: 30px;
+            // margin-top: 30px;
             margin-bottom: 20px;
             font-size: 20px;
             // font-weight: 400;
@@ -923,7 +926,7 @@ h2{
                 overflow: hidden;
                 color: $ordinary;
                 padding: 30px ;
-                background-image: url("/Group\ 9.png");
+                background-image: url("/Group 9.png");
                 // background-size: cover;
                 // background-repeat: no-repeat;
                
@@ -1400,7 +1403,7 @@ h2{
         
         color: $ordinary;
         padding: 35px ;
-        background-image: url("/Group\ 9.png");
+        background-image: url("/Group 9.png");
         background-size: cover;
        
       
@@ -1907,7 +1910,7 @@ height: 400px;}
         
         color: $ordinary;
         padding: 35px ;
-        background-image: url("/Group\ 9.png");
+        background-image: url("/Group 9.png");
         background-size: cover;
        
       
@@ -2051,7 +2054,7 @@ height: 400px;}
 
             i{
                 font-size: 30px;
-                margin: 30px 40px;
+                margin: 20px 15px;
                
             }
             
