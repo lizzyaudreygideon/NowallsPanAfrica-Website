@@ -15,7 +15,7 @@
   src: url(/Baloo2-Regular.ttf);
 }
 p {
-  font-family: "mycustomfont", Baloo2;
+  font-family: "mycustomfont", Baloo-2;
   font-weight: 500;
   font-size: 18px;
   line-height: 1.4;
