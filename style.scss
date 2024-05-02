@@ -17,23 +17,24 @@ $ordinary:white;
     
 @font-face {
     font-family: "myfont", Baloo;
-    src: url(/Baloo-Regular.ttf);
+    src: url(Baloo-Regular.ttf);
    
 }
 
 @font-face {
-    font-family: "mycustomfont", Baloo-2;
-    src: url(/Baloo2-Regular.ttf);
+    font-family: "mycustomfont";
+    src: url(Baloo2-Regular.ttf);
 }
 
 
 p{
-    font-family:  "mycustomfont", Baloo-2 ;
+    font-family:  "mycustomfont", Baloo2 ;
     font-weight: 500;
     font-size: 18px;
     line-height: 1.4;
     
 }
+
 
 h2{
     font-family: "myfont", Baloo;
@@ -252,11 +253,16 @@ h2{
     flex-direction: column;
      padding: 50px;
 
-     p{
-    
+//      
+p{
+    font-family:  "mycustomfont", Baloo 2;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
     color: $secondary;
     
-   }
+}
+
 
  }
 
@@ -282,7 +288,7 @@ h2{
          }
 
          h4{
-            font-family:  "mycustomfont", Baloo ;
+            font-family:  "mycustomfont", Baloo2 ;
             font-weight: 700;
            font-size: 28px;
          }
@@ -419,7 +425,7 @@ h2{
     .form-control{
         
             color: $form-text;
-            font-family:  "mycustomfont", Baloo2;
+            font-family:  "mycustomfont",Baloo2;
             font-size: 20px;
             font-weight: 400;
         border: 4px;
