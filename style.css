@@ -8,11 +8,11 @@
 
 @font-face {
   font-family: "myfont", Baloo;
-  src: url(Baloo-Regular.ttf), url(/BalooBhaijaan-Regular.ttf);
+  src: url(/Baloo-Regular.ttf);
 }
 @font-face {
   font-family: "mycustomfont", Baloo2;
-  src: url(Baloo2-Regular.ttf);
+  src: url(/Baloo2-Regular.ttf);
 }
 p {
   font-family: "mycustomfont", Baloo2;
