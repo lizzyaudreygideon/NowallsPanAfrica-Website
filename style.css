@@ -12,7 +12,7 @@
 }
 @font-face {
   font-family: "mycustomfont", Baloo2;
-  src: url(Baloo2-Regular.ttf);
+  src: url(/Baloo2-Regular.ttf);
 }
 p {
   font-family: "mycustomfont", Baloo2;
