@@ -572,6 +572,34 @@ p{
  
     // }
 
+    @font-face {
+        font-family: "myfont", Baloo;
+        src: url(Baloo-Regular.ttf);
+       
+    }
+    
+    @font-face {
+        font-family: "mycustomfont";
+        src: url(Baloo2-Regular.ttf);
+    }
+    
+    
+    p{
+        font-family:  "mycustomfont", Baloo2 ;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.4;
+        
+    }
+    
+    
+    h2{
+        font-family: "myfont", Baloo;
+        font-size: 45px;
+        font-weight: 400;
+    }
+    
+
     // Banner
     .banner{
         overflow: hidden;
@@ -1003,7 +1031,33 @@ p{
 
 @media only screen  and (min-width:577px) and (max-width:992px) {
     
-
+    @font-face {
+        font-family: "myfont", Baloo;
+        src: url(Baloo-Regular.ttf);
+       
+    }
+    
+    @font-face {
+        font-family: "mycustomfont";
+        src: url(Baloo2-Regular.ttf);
+    }
+    
+    
+    p{
+        font-family:  "mycustomfont", Baloo2 ;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.4;
+        
+    }
+    
+    
+    h2{
+        font-family: "myfont", Baloo;
+        font-size: 45px;
+        font-weight: 400;
+    }
+    
  
     // //navigation
    
@@ -1481,7 +1535,33 @@ p{
 
 @media only screen  and (min-width:993px) and (max-width:1024px) {
     
-
+    @font-face {
+        font-family: "myfont", Baloo;
+        src: url(Baloo-Regular.ttf);
+       
+    }
+    
+    @font-face {
+        font-family: "mycustomfont";
+        src: url(Baloo2-Regular.ttf);
+    }
+    
+    
+    p{
+        font-family:  "mycustomfont", Baloo2 ;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 1.4;
+        
+    }
+    
+    
+    h2{
+        font-family: "myfont", Baloo;
+        font-size: 45px;
+        font-weight: 400;
+    }
+    
  
     // //navigation
     // .navigation{
@@ -2112,7 +2192,7 @@ height: 400px;}
             line-height: 30px;
     
             a{
-                font-size: 30px;
+                font-size: 20px;
                 color: $secondary;
               
             }

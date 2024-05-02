@@ -390,6 +390,25 @@ h2 {
 }
 
 @media only screen and (max-width: 575.98px) {
+  @font-face {
+    font-family: "myfont", Baloo;
+    src: url(Baloo-Regular.ttf);
+  }
+  @font-face {
+    font-family: "mycustomfont";
+    src: url(Baloo2-Regular.ttf);
+  }
+  p {
+    font-family: "mycustomfont", Baloo2;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  h2 {
+    font-family: "myfont", Baloo;
+    font-size: 45px;
+    font-weight: 400;
+  }
   .banner {
     overflow: hidden;
   }
@@ -698,6 +717,25 @@ h2 {
   }
 }
 @media only screen and (min-width: 577px) and (max-width: 992px) {
+  @font-face {
+    font-family: "myfont", Baloo;
+    src: url(Baloo-Regular.ttf);
+  }
+  @font-face {
+    font-family: "mycustomfont";
+    src: url(Baloo2-Regular.ttf);
+  }
+  p {
+    font-family: "mycustomfont", Baloo2;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  h2 {
+    font-family: "myfont", Baloo;
+    font-size: 45px;
+    font-weight: 400;
+  }
   .banner {
     margin: 10px 0;
   }
@@ -1007,6 +1045,25 @@ h2 {
   }
 }
 @media only screen and (min-width: 993px) and (max-width: 1024px) {
+  @font-face {
+    font-family: "myfont", Baloo;
+    src: url(Baloo-Regular.ttf);
+  }
+  @font-face {
+    font-family: "mycustomfont";
+    src: url(Baloo2-Regular.ttf);
+  }
+  p {
+    font-family: "mycustomfont", Baloo2;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 1.4;
+  }
+  h2 {
+    font-family: "myfont", Baloo;
+    font-size: 45px;
+    font-weight: 400;
+  }
   .banner {
     margin: 10px 0;
   }
@@ -1393,7 +1450,7 @@ h2 {
     line-height: 30px;
   }
   .navigation nav ul li a {
-    font-size: 30px;
+    font-size: 20px;
     color: rgb(0, 62, 84);
   }
   .navigation nav #check:checked ~ ul {
