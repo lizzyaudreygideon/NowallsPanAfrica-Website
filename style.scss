@@ -16,13 +16,13 @@ $ordinary:white;
 
     
 @font-face {
-    font-family: "myfont";
+    font-family: "myfont", Baloo;
     src: url(/Baloo-Regular.ttf),  url(/BalooBhaijaan-Regular.ttf);
    
 }
 
 @font-face {
-    font-family: "mycustomfont";
+    font-family: "mycustomfont", Baloo2;
     src: url(Baloo2-Regular.ttf);
 }
 
@@ -123,10 +123,11 @@ h2{
     .info{
         padding: 0 50px;
        margin-top: 0;
-       
+       font-family: "myfont", Baloo;
         }
 
         .we{
+            font-family: "myfont", Baloo;
             color: $secondary;
             font-weight: 400; 
             font-size : 45px
@@ -134,7 +135,7 @@ h2{
      
 
    h1{
-    font-family: "myfont",Baloo;
+    font-family: "myfont", Baloo;
     color: $secondary;
     font-size: 90px;
     font-weight: 400;
@@ -236,7 +237,7 @@ h2{
 .US{
     .wed{        
         color: $primary;
-        
+        font-family: "myfont", Baloo;
          }
 
            margin: 60px 0 60px 0;
@@ -277,7 +278,7 @@ h2{
         margin-top: 50px;
         margin-bottom: 40px;
         color: $ordinary;
-
+        font-family: "myfont", Baloo;
          }
 
          h4{
@@ -373,7 +374,7 @@ h2{
 
             h2{
                 display: block;
-                
+                font-family: "myfont", Baloo;
             }
         }
 
@@ -465,7 +466,7 @@ h2{
 
    h2{
     color:  $primary;
-    
+    font-family: "myfont", Baloo;
    }
 
    p{
@@ -493,7 +494,7 @@ h2{
       
     h2{
         display: block;
-       
+        font-family: "myfont", Baloo;
     }
 
     .con{
@@ -571,12 +572,13 @@ h2{
         // margin-top: 15px;
     
         h2{
-            
+            font-family: "myfont", Baloo;
             color: $secondary;
             margin: 0 0 0 8px;
              }
 
              .we{
+                font-family: "myfont", Baloo;
                 font-weight: 400; 
                 font-size : 20px;
                 margin: 0 0 0 10px;
@@ -586,7 +588,7 @@ h2{
            padding: 10px;
             display: flex;
             flex-direction: column;
-                  
+            font-family: "myfont", Baloo;     
             }
          
     
@@ -647,7 +649,7 @@ h2{
         .more{
         display: flex;
         
-        p{
+        p{ font-family: "myfont", Baloo;
             font-size: 14px;
             font-weight: 400;
         }
@@ -669,7 +671,8 @@ h2{
 
     .US{
         overflow: hidden;
-        .wed{        
+        .wed{ 
+         font-family: "myfont", Baloo;       
             font-size: 20px;
             font-weight: 400;
              }   
@@ -687,6 +690,7 @@ h2{
          padding: 25px 20px;
     
         p{
+
         font-size: 14px;
         font-weight: 700;
         color: $secondary;
@@ -708,7 +712,7 @@ h2{
             font-size: 20px;
             // font-weight: 400;
             color: $ordinary;
-    
+     font-family: "myfont", Baloo;
              }
     
              h4{
@@ -816,7 +820,7 @@ h2{
                     .wed{
                         font-size: 20px;
                         font-weight: 400;
-                        
+                         font-family: "myfont", Baloo;
                         // display: block;
                         
                     }
@@ -887,9 +891,9 @@ h2{
             
                     .textarea{
                         border: 3px; 
-                        padding: 20px;  
+                        padding: 10px;  
                         width: 330px;
-                        font-size: 14px;
+                        font-size: 12px;
                         font-weight: 400;
                     }
                 }
@@ -912,6 +916,7 @@ h2{
                }
             
                h2{
+                font-family: "myfont", Baloo;
                 color:  $primary;
                 font-size: 20px;
                 font-weight: 400;
@@ -944,6 +949,7 @@ h2{
                 
                   
                 h2{
+                 font-family: "myfont", Baloo;
                     display: block;
                    font-size: 20px;
                    font-weight: 400;
@@ -1006,11 +1012,12 @@ h2{
     
         .info{
             padding: 0 35px;
-      
+       font-family: "myfont", Baloo;
            
             }
     
             .we{
+             font-family: "myfont", Baloo;
                 color: $secondary;
                 font-weight: 400; 
                 font-size : 25px
@@ -1142,7 +1149,8 @@ h2{
     
     
     .US{
-        .wed{        
+        .wed{  
+         font-family: "myfont", Baloo;      
             color: $primary;
             font-size: 25px;
              }
@@ -1185,6 +1193,7 @@ h2{
         color: $ordinary;
     
         .serve{
+         font-family: "myfont", Baloo;
             margin-top: 30px;
             margin-bottom: 30px;
             color: $ordinary;
@@ -1291,6 +1300,7 @@ h2{
             
     
                 h2{
+                 font-family: "myfont", Baloo;
                     display: block;
                     font-size: 25px;
                 }
@@ -1389,6 +1399,7 @@ h2{
        }
     
        h2{
+        font-family: "myfont", Baloo;
         color:  $primary;
         font-size: 25px;
        }
@@ -1420,6 +1431,7 @@ h2{
         
           
         h2{
+         font-family: "myfont", Baloo;
             display: block;
            font-size: 25px;
         }
@@ -1511,11 +1523,12 @@ h2{
     
         .info{
             padding: 0 35px;
-      
+       font-family: "myfont", Baloo;
            
             }
     
             .we{
+             font-family: "myfont", Baloo;
                 color: $secondary;
                 font-weight: 400; 
                 font-size : 30px
@@ -1647,7 +1660,8 @@ h2{
     
     
     .US{
-        .wed{        
+        .wed{  
+         font-family: "myfont", Baloo;      
             color: $primary;
             font-size: 30px;
              }
@@ -1692,6 +1706,7 @@ height: 400px;}
         color: $ordinary;
     
         .serve{
+         font-family: "myfont", Baloo;
             margin-top: 30px;
             margin-bottom: 30px;
             color: $ordinary;
@@ -1798,6 +1813,7 @@ height: 400px;}
             
     
                 h2{
+                 font-family: "myfont", Baloo;
                     display: block;
                     font-size: 30px;
                 }
@@ -1896,6 +1912,7 @@ height: 400px;}
        }
     
        h2{
+        font-family: "myfont", Baloo;
         color:  $primary;
         font-size: 30px;
        }
@@ -1927,6 +1944,7 @@ height: 400px;}
         
           
         h2{
+         font-family: "myfont", Baloo;
             display: block;
            font-size: 30px;
         }
@@ -1978,8 +1996,8 @@ height: 400px;}
             label {
     
                 i{
-                    font-size: 40px;
-                    margin: 60px 70px;
+                    font-size: 20px;
+                    margin: 40px 70px;
                    
                 }
                 
@@ -2008,7 +2026,7 @@ height: 400px;}
                 line-height: 30px;
         
                 a{
-                    font-size: 40px;
+                    font-size: 25px;
                     color: $secondary;
                  
                 }
@@ -2070,7 +2088,7 @@ height: 400px;}
     ul{
         position: absolute;
         width: 100%;
-        height: 90vh;
+        height: 100vh;
         background-color: $ordinary;
         top: 40px;
         left: -108%;

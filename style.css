@@ -7,11 +7,11 @@
 }
 
 @font-face {
-  font-family: "myfont";
+  font-family: "myfont", Baloo;
   src: url(/Baloo-Regular.ttf), url(/BalooBhaijaan-Regular.ttf);
 }
 @font-face {
-  font-family: "mycustomfont";
+  font-family: "mycustomfont", Baloo2;
   src: url(Baloo2-Regular.ttf);
 }
 p {
@@ -83,8 +83,10 @@ h2 {
 .banner .info {
   padding: 0 50px;
   margin-top: 0;
+  font-family: "myfont", Baloo;
 }
 .banner .we {
+  font-family: "myfont", Baloo;
   color: rgb(0, 62, 84);
   font-weight: 400;
   font-size: 45px;
@@ -170,6 +172,7 @@ h2 {
 }
 .US .wed {
   color: rgb(215, 123, 65);
+  font-family: "myfont", Baloo;
 }
 .US .About {
   display: flex;
@@ -193,6 +196,7 @@ h2 {
   margin-top: 50px;
   margin-bottom: 40px;
   color: white;
+  font-family: "myfont", Baloo;
 }
 #Services h4 {
   font-family: "mycustomfont", Baloo;
@@ -262,6 +266,7 @@ h2 {
 }
 #Subscribe .textimage .text h2 {
   display: block;
+  font-family: "myfont", Baloo;
 }
 #Subscribe .textimage a {
   background-color: rgb(0, 62, 84);
@@ -333,6 +338,7 @@ h2 {
 }
 #Contact-Us h2 {
   color: rgb(215, 123, 65);
+  font-family: "myfont", Baloo;
 }
 #Contact-Us p {
   color: rgb(0, 62, 84);
@@ -353,6 +359,7 @@ h2 {
 }
 .footer1 h2 {
   display: block;
+  font-family: "myfont", Baloo;
 }
 .footer1 .con {
   display: flex;
@@ -383,10 +390,12 @@ h2 {
     overflow: hidden;
   }
   .banner h2 {
+    font-family: "myfont", Baloo;
     color: rgb(0, 62, 84);
     margin: 0 0 0 8px;
   }
   .banner .we {
+    font-family: "myfont", Baloo;
     font-weight: 400;
     font-size: 20px;
     margin: 0 0 0 10px;
@@ -395,6 +404,7 @@ h2 {
     padding: 10px;
     display: flex;
     flex-direction: column;
+    font-family: "myfont", Baloo;
   }
   .banner h1 {
     font-family: "myfont", Baloo;
@@ -441,6 +451,7 @@ h2 {
     display: flex;
   }
   .banner .more p {
+    font-family: "myfont", Baloo;
     font-size: 14px;
     font-weight: 400;
   }
@@ -459,6 +470,7 @@ h2 {
     margin: 0;
   }
   .US .wed {
+    font-family: "myfont", Baloo;
     font-size: 20px;
     font-weight: 400;
   }
@@ -485,6 +497,7 @@ h2 {
     margin-bottom: 20px;
     font-size: 20px;
     color: white;
+    font-family: "myfont", Baloo;
   }
   #Services h4 {
     font-family: "mycustomfont", Baloo;
@@ -560,6 +573,7 @@ h2 {
   #Subscribe .textimage .text .wed {
     font-size: 20px;
     font-weight: 400;
+    font-family: "myfont", Baloo;
   }
   #Subscribe .textimage a {
     background-color: rgb(0, 62, 84);
@@ -603,9 +617,9 @@ h2 {
   }
   #Contact-Us form .textarea {
     border: 3px;
-    padding: 20px;
+    padding: 10px;
     width: 330px;
-    font-size: 14px;
+    font-size: 12px;
     font-weight: 400;
   }
   #Contact-Us .submit {
@@ -623,6 +637,7 @@ h2 {
     color: white;
   }
   #Contact-Us h2 {
+    font-family: "myfont", Baloo;
     color: rgb(215, 123, 65);
     font-size: 20px;
     font-weight: 400;
@@ -646,6 +661,7 @@ h2 {
     align-items: start;
   }
   .footer1 h2 {
+    font-family: "myfont", Baloo;
     display: block;
     font-size: 20px;
     font-weight: 400;
@@ -683,8 +699,10 @@ h2 {
   }
   .banner .info {
     padding: 0 35px;
+    font-family: "myfont", Baloo;
   }
   .banner .we {
+    font-family: "myfont", Baloo;
     color: rgb(0, 62, 84);
     font-weight: 400;
     font-size: 25px;
@@ -768,6 +786,7 @@ h2 {
     flex-direction: column;
   }
   .US .wed {
+    font-family: "myfont", Baloo;
     color: rgb(215, 123, 65);
     font-size: 25px;
   }
@@ -790,6 +809,7 @@ h2 {
     color: white;
   }
   #Services .serve {
+    font-family: "myfont", Baloo;
     margin-top: 30px;
     margin-bottom: 30px;
     color: white;
@@ -859,6 +879,7 @@ h2 {
     margin-right: 20px;
   }
   #Subscribe .textimage .text h2 {
+    font-family: "myfont", Baloo;
     display: block;
     font-size: 25px;
   }
@@ -933,6 +954,7 @@ h2 {
     color: white;
   }
   #Contact-Us h2 {
+    font-family: "myfont", Baloo;
     color: rgb(215, 123, 65);
     font-size: 25px;
   }
@@ -952,6 +974,7 @@ h2 {
     flex-direction: column;
   }
   .footer1 h2 {
+    font-family: "myfont", Baloo;
     display: block;
     font-size: 25px;
   }
@@ -985,8 +1008,10 @@ h2 {
   }
   .banner .info {
     padding: 0 35px;
+    font-family: "myfont", Baloo;
   }
   .banner .we {
+    font-family: "myfont", Baloo;
     color: rgb(0, 62, 84);
     font-weight: 400;
     font-size: 30px;
@@ -1071,6 +1096,7 @@ h2 {
     padding: 35px;
   }
   .US .wed {
+    font-family: "myfont", Baloo;
     color: rgb(215, 123, 65);
     font-size: 30px;
   }
@@ -1093,6 +1119,7 @@ h2 {
     color: white;
   }
   #Services .serve {
+    font-family: "myfont", Baloo;
     margin-top: 30px;
     margin-bottom: 30px;
     color: white;
@@ -1162,6 +1189,7 @@ h2 {
     margin-right: 20px;
   }
   #Subscribe .textimage .text h2 {
+    font-family: "myfont", Baloo;
     display: block;
     font-size: 30px;
   }
@@ -1236,6 +1264,7 @@ h2 {
     color: white;
   }
   #Contact-Us h2 {
+    font-family: "myfont", Baloo;
     color: rgb(215, 123, 65);
     font-size: 30px;
   }
@@ -1255,6 +1284,7 @@ h2 {
     flex-direction: column;
   }
   .footer1 h2 {
+    font-family: "myfont", Baloo;
     display: block;
     font-size: 30px;
   }
@@ -1287,8 +1317,8 @@ h2 {
     width: 58%;
   }
   .navigation nav label i {
-    font-size: 40px;
-    margin: 60px 70px;
+    font-size: 20px;
+    margin: 40px 70px;
   }
   .navigation nav label #btn {
     display: block;
@@ -1312,7 +1342,7 @@ h2 {
     line-height: 30px;
   }
   .navigation nav ul li a {
-    font-size: 40px;
+    font-size: 25px;
     color: rgb(0, 62, 84);
   }
   .navigation nav #check:checked ~ ul {
@@ -1343,7 +1373,7 @@ h2 {
   .navigation nav ul {
     position: absolute;
     width: 100%;
-    height: 90vh;
+    height: 100vh;
     background-color: white;
     top: 40px;
     left: -108%;
