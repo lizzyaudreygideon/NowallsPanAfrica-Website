@@ -16,7 +16,7 @@ $ordinary:white;
 
     
 @font-face {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     src: url(Baloo-Regular.ttf);
    
 }
@@ -28,7 +28,7 @@ $ordinary:white;
 
 
 p{
-    font-family:  "mycustomfont", Baloo2 ;
+    font-family:  "mycustomfont";
     font-weight: 500;
     font-size: 18px;
     line-height: 1.4;
@@ -37,7 +37,7 @@ p{
 
 
 h2{
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-size: 45px;
     font-weight: 400;
 }
@@ -64,7 +64,7 @@ h2{
      }
 
      ul{
-        font-family:  "mycustomfont", Baloo2 ;
+        font-family:  "mycustomfont";
         float: right;
         margin: 40px 20px 0 ;
      }
@@ -77,7 +77,7 @@ h2{
      }
 
      a{
-        font-family: "myfont",Baloo;
+        font-family: "myfont";
         color: $secondary;
         text-decoration: none;
         // margin: 50px;
@@ -124,11 +124,11 @@ h2{
     .info{
         padding: 0 50px;
        margin-top: 0;
-       font-family: "myfont", Baloo;
+       font-family: "myfont";
         }
 
         .we{
-            font-family: "myfont", Baloo;
+            font-family: "myfont";
             color: $secondary;
             font-weight: 400; 
             font-size : 45px
@@ -136,7 +136,7 @@ h2{
      
 
    h1{
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     color: $secondary;
     font-size: 90px;
     font-weight: 400;
@@ -144,7 +144,7 @@ h2{
    }
 
    p{
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-weight: 400;
     color: $secondary;
    }
@@ -238,7 +238,7 @@ h2{
 .US{
     .wed{        
         color: $primary;
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
          }
 
            margin: 60px 0 60px 0;
@@ -255,7 +255,7 @@ h2{
 
 //      
 p{
-    font-family:  "mycustomfont", Baloo 2;
+    font-family:  "mycustomfont";
     font-weight: 500;
     font-size: 18px;
     line-height: 1.4;
@@ -284,11 +284,11 @@ p{
         margin-top: 50px;
         margin-bottom: 40px;
         color: $ordinary;
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
          }
 
          h4{
-            font-family:  "mycustomfont", Baloo2 ;
+            font-family:  "mycustomfont";
             font-weight: 700;
            font-size: 28px;
          }
@@ -380,7 +380,7 @@ p{
 
             h2{
                 display: block;
-                font-family: "myfont", Baloo;
+                font-family: "myfont";
             }
         }
 
@@ -394,7 +394,7 @@ p{
             padding: 10px;
             text-decoration: none;
             display: flex;
-            font-family:  "myfont", Baloo;
+            font-family:  "myfont";
              font-size: 20px;
              font-weight: 500;
             justify-content: center;
@@ -425,7 +425,7 @@ p{
     .form-control{
         
             color: $form-text;
-            font-family:  "mycustomfont",Baloo2;
+            font-family:  "mycustomfont";
             font-size: 20px;
             font-weight: 400;
         border: 4px;
@@ -455,7 +455,7 @@ p{
     
     
    .submit{
-      font-family:  "mycustomfont", Baloo2;
+      font-family:  "mycustomfont";
         font-size: 20px;
         font-weight: 700;
         padding: 20px;
@@ -472,7 +472,7 @@ p{
 
    h2{
     color:  $primary;
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
    }
 
    p{
@@ -500,7 +500,7 @@ p{
       
     h2{
         display: block;
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
     }
 
     .con{
@@ -573,7 +573,7 @@ p{
     // }
 
     @font-face {
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
         src: url(Baloo-Regular.ttf);
        
     }
@@ -585,7 +585,7 @@ p{
     
     
     p{
-        font-family:  "mycustomfont", Baloo2 ;
+        font-family:  "mycustomfont";
         font-weight: 500;
         font-size: 18px;
         line-height: 1.4;
@@ -594,7 +594,7 @@ p{
     
     
     h2{
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
         font-size: 45px;
         font-weight: 400;
     }
@@ -606,13 +606,13 @@ p{
         // margin-top: 15px;
     
         h2{
-            font-family: "myfont", Baloo;
+            font-family: "myfont";
             color: $secondary;
             margin: 0 0 0 8px;
              }
 
              .we{
-                font-family: "myfont", Baloo;
+                font-family: "myfont";
                 font-weight: 400; 
                 font-size : 20px;
                 margin: 0 0 0 10px;
@@ -622,12 +622,12 @@ p{
            padding: 10px;
             display: flex;
             flex-direction: column;
-            font-family: "myfont", Baloo;     
+            font-family: "myfont";     
             }
          
     
        h1{
-        font-family: "myfont",Baloo;
+        font-family: "myfont";
         color: $secondary;
         font-size: 40px;
         font-weight: 400;
@@ -635,7 +635,7 @@ p{
        }
     
        p{
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
         font-weight: 400;
         font-size: 14px;
         color: $secondary;
@@ -683,7 +683,7 @@ p{
         .more{
         display: flex;
         
-        p{ font-family: "myfont", Baloo;
+        p{ font-family: "myfont";
             font-size: 14px;
             font-weight: 400;
         }
@@ -706,7 +706,7 @@ p{
     .US{
         overflow: hidden;
         .wed{ 
-         font-family: "myfont", Baloo;       
+         font-family: "myfont";       
             font-size: 20px;
             font-weight: 400;
              }   
@@ -746,11 +746,11 @@ p{
             font-size: 20px;
             // font-weight: 400;
             color: $ordinary;
-     font-family: "myfont", Baloo;
+     font-family: "myfont";
              }
     
              h4{
-                font-family:  "mycustomfont", Baloo ;
+                font-family:  "mycustomfont";
                 font-weight: 700;
                font-size: 23px;
              }
@@ -817,7 +817,7 @@ p{
                             color:  $primary;  
                         }
                           p{
-                            font-family:  "mycustomfont", Baloo ;
+                            font-family:  "mycustomfont";
                             font-weight: 400;
                             font-size:14px ;
                           }
@@ -854,7 +854,7 @@ p{
                     .wed{
                         font-size: 20px;
                         font-weight: 400;
-                         font-family: "myfont", Baloo;
+                         font-family: "myfont";
                         // display: block;
                         
                     }
@@ -870,7 +870,7 @@ p{
                     // padding: 10px;
                     text-decoration: none;
                     display: flex;
-                    font-family:  "myfont", Baloo;
+                    font-family:  "myfont";
                      font-size: 14px;
                      font-weight: 500;
                     justify-content: center;
@@ -904,7 +904,7 @@ p{
                 .form-control{
                     
                         color: $form-text;
-                        font-family:  "mycustomfont", Baloo2;
+                        font-family:  "mycustomfont";
                         font-size: 12px;
                         font-weight: 400;
                     border: 4px;
@@ -934,7 +934,7 @@ p{
                 
                 
                .submit{
-                  font-family:  "mycustomfont", Baloo2;
+                  font-family:  "mycustomfont";
                     font-size: 14px;
                     font-weight: 700;
                     padding: 10px;
@@ -950,7 +950,7 @@ p{
                }
             
                h2{
-                font-family: "myfont", Baloo;
+                font-family: "myfont";
                 color:  $primary;
                 font-size: 20px;
                 font-weight: 400;
@@ -983,7 +983,7 @@ p{
                 
                   
                 h2{
-                 font-family: "myfont", Baloo;
+                 font-family: "myfont";
                     display: block;
                    font-size: 20px;
                    font-weight: 400;
@@ -1032,7 +1032,7 @@ p{
 @media only screen  and (min-width:577px) and (max-width:992px) {
     
     @font-face {
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
         src: url(Baloo-Regular.ttf);
        
     }
@@ -1044,7 +1044,7 @@ p{
     
     
     p{
-        font-family:  "mycustomfont", Baloo2 ;
+        font-family:  "mycustomfont";
         font-weight: 500;
         font-size: 18px;
         line-height: 1.4;
@@ -1053,7 +1053,7 @@ p{
     
     
     h2{
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
         font-size: 45px;
         font-weight: 400;
     }
@@ -1072,12 +1072,12 @@ p{
     
         .info{
             padding: 0 35px;
-       font-family: "myfont", Baloo;
+       font-family: "myfont";
            
             }
     
             .we{
-             font-family: "myfont", Baloo;
+             font-family: "myfont";
                 color: $secondary;
                 font-weight: 400; 
                 font-size : 25px
@@ -1085,7 +1085,7 @@ p{
          
     
        h1{
-        font-family: "myfont",Baloo;
+        font-family: "myfont";
         color: $secondary;
         font-size: 60px;
         font-weight: 400;
@@ -1094,7 +1094,7 @@ p{
     
        p{
         font-size: 16px;
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
         font-weight: 400;
         color: $secondary;
        }
@@ -1210,7 +1210,7 @@ p{
     
     .US{
         .wed{  
-         font-family: "myfont", Baloo;      
+         font-family: "myfont";      
             color: $primary;
             font-size: 25px;
              }
@@ -1253,7 +1253,7 @@ p{
         color: $ordinary;
     
         .serve{
-         font-family: "myfont", Baloo;
+         font-family: "myfont";
             margin-top: 30px;
             margin-bottom: 30px;
             color: $ordinary;
@@ -1319,7 +1319,7 @@ p{
                         }
                       
                         p{
-                            font-family:  "mycustomfont", Baloo ;
+                            font-family:  "mycustomfont";
                             // font-weight: 400;
                             font-size:12px ;
                           }
@@ -1360,7 +1360,7 @@ p{
             
     
                 h2{
-                 font-family: "myfont", Baloo;
+                 font-family: "myfont";
                     display: block;
                     font-size: 25px;
                 }
@@ -1376,7 +1376,7 @@ p{
                 padding: 5px;
                 text-decoration: none;
                 display: flex;
-                font-family:  "myfont", Baloo;
+                font-family:  "myfont";
                  font-size: 14px;
                  font-weight: 500;
                 justify-content: center;
@@ -1413,7 +1413,7 @@ p{
         .form-control{
             
                 color: $form-text;
-                font-family:  "mycustomfont", Baloo2;
+                font-family:  "mycustomfont";
                 font-size: 16px;
                 font-weight: 400;
             border: 4px;
@@ -1443,7 +1443,7 @@ p{
         
         
        .submit{
-          font-family:  "mycustomfont", Baloo2;
+          font-family:  "mycustomfont";
             font-size: 16px;
             font-weight: 700;
             padding: 20px;
@@ -1459,7 +1459,7 @@ p{
        }
     
        h2{
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
         color:  $primary;
         font-size: 25px;
        }
@@ -1491,7 +1491,7 @@ p{
         
           
         h2{
-         font-family: "myfont", Baloo;
+         font-family: "myfont";
             display: block;
            font-size: 25px;
         }
@@ -1536,7 +1536,7 @@ p{
 @media only screen  and (min-width:993px) and (max-width:1024px) {
     
     @font-face {
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
         src: url(Baloo-Regular.ttf);
        
     }
@@ -1548,7 +1548,7 @@ p{
     
     
     p{
-        font-family:  "mycustomfont", Baloo2 ;
+        font-family:  "mycustomfont";
         font-weight: 500;
         font-size: 18px;
         line-height: 1.4;
@@ -1557,7 +1557,7 @@ p{
     
     
     h2{
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
         font-size: 45px;
         font-weight: 400;
     }
@@ -1609,12 +1609,12 @@ p{
     
         .info{
             padding: 0 35px;
-       font-family: "myfont", Baloo;
+       font-family: "myfont";
            
             }
     
             .we{
-             font-family: "myfont", Baloo;
+             font-family: "myfont";
                 color: $secondary;
                 font-weight: 400; 
                 font-size : 30px
@@ -1622,7 +1622,7 @@ p{
          
     
        h1{
-        font-family: "myfont",Baloo;
+        font-family: "myfont";
         color: $secondary;
         font-size: 75px;
         font-weight: 400;
@@ -1631,7 +1631,7 @@ p{
     
        p{
         font-size: 19px;
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
         font-weight: 400;
         color: $secondary;
        }
@@ -1747,7 +1747,7 @@ p{
     
     .US{
         .wed{  
-         font-family: "myfont", Baloo;      
+         font-family: "myfont";      
             color: $primary;
             font-size: 30px;
              }
@@ -1792,7 +1792,7 @@ height: 400px;}
         color: $ordinary;
     
         .serve{
-         font-family: "myfont", Baloo;
+         font-family: "myfont";
             margin-top: 30px;
             margin-bottom: 30px;
             color: $ordinary;
@@ -1858,7 +1858,7 @@ height: 400px;}
                         }
                       
                         p{
-                            font-family:  "mycustomfont", Baloo ;
+                            font-family:  "mycustomfont";
                             // font-weight: 400;
                             font-size:14px ;
                           }
@@ -1899,7 +1899,7 @@ height: 400px;}
             
     
                 h2{
-                 font-family: "myfont", Baloo;
+                 font-family: "myfont";
                     display: block;
                     font-size: 30px;
                 }
@@ -1915,7 +1915,7 @@ height: 400px;}
                 padding: 5px;
                 text-decoration: none;
                 display: flex;
-                font-family:  "myfont", Baloo;
+                font-family:  "myfont";
                  font-size: 19px;
                  font-weight: 500;
                 justify-content: center;
@@ -1952,7 +1952,7 @@ height: 400px;}
         .form-control{
             
                 color: $form-text;
-                font-family:  "mycustomfont", Baloo2;
+                font-family:  "mycustomfont";
                 font-size: 19px;
                 font-weight: 400;
             border: 4px;
@@ -1982,7 +1982,7 @@ height: 400px;}
         
         
        .submit{
-          font-family:  "mycustomfont", Baloo2;
+          font-family:  "mycustomfont";
             font-size: 19px;
             font-weight: 700;
             padding: 20px;
@@ -1998,7 +1998,7 @@ height: 400px;}
        }
     
        h2{
-        font-family: "myfont", Baloo;
+        font-family: "myfont";
         color:  $primary;
         font-size: 30px;
        }
@@ -2030,7 +2030,7 @@ height: 400px;}
         
           
         h2{
-         font-family: "myfont", Baloo;
+         font-family: "myfont";
             display: block;
            font-size: 30px;
         }

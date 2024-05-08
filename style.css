@@ -7,7 +7,7 @@
 }
 
 @font-face {
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
   src: url(Baloo-Regular.ttf);
 }
 @font-face {
@@ -15,14 +15,14 @@
   src: url(Baloo2-Regular.ttf);
 }
 p {
-  font-family: "mycustomfont", Baloo2;
+  font-family: "mycustomfont";
   font-weight: 500;
   font-size: 18px;
   line-height: 1.4;
 }
 
 h2 {
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
   font-size: 45px;
   font-weight: 400;
 }
@@ -41,7 +41,7 @@ h2 {
      object-fit: cover;
 }
 .navigation nav ul {
-  font-family: "mycustomfont", Baloo2;
+  font-family: "mycustomfont";
   float: right;
   margin: 40px 20px 0;
 }
@@ -51,7 +51,7 @@ h2 {
   margin: 0 15px;
 }
 .navigation nav a {
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
   color: rgb(0, 62, 84);
   text-decoration: none;
   font-size: 35px;
@@ -83,23 +83,23 @@ h2 {
 .banner .info {
   padding: 0 50px;
   margin-top: 0;
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
 }
 .banner .we {
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
   color: rgb(0, 62, 84);
   font-weight: 400;
   font-size: 45px;
 }
 .banner h1 {
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
   color: rgb(0, 62, 84);
   font-size: 90px;
   font-weight: 400;
   margin: 30px 0 0 0;
 }
 .banner p {
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
   font-weight: 400;
   color: rgb(0, 62, 84);
 }
@@ -172,7 +172,7 @@ h2 {
 }
 .US .wed {
   color: rgb(215, 123, 65);
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
 }
 .US .About {
   display: flex;
@@ -180,7 +180,7 @@ h2 {
   padding: 50px;
 }
 .US .About p {
-  font-family: "mycustomfont", Baloo 2;
+  font-family: "mycustomfont";
   font-weight: 500;
   font-size: 18px;
   line-height: 1.4;
@@ -200,10 +200,10 @@ h2 {
   margin-top: 50px;
   margin-bottom: 40px;
   color: white;
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
 }
 #Services h4 {
-  font-family: "mycustomfont", Baloo2;
+  font-family: "mycustomfont";
   font-weight: 700;
   font-size: 28px;
 }
@@ -270,7 +270,7 @@ h2 {
 }
 #Subscribe .textimage .text h2 {
   display: block;
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
 }
 #Subscribe .textimage a {
   background-color: rgb(0, 62, 84);
@@ -280,7 +280,7 @@ h2 {
   padding: 10px;
   text-decoration: none;
   display: flex;
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
   font-size: 20px;
   font-weight: 500;
   justify-content: center;
@@ -303,7 +303,7 @@ h2 {
 }
 #Contact-Us .form-control {
   color: rgba(10, 49, 64, 0.5);
-  font-family: "mycustomfont", Baloo2;
+  font-family: "mycustomfont";
   font-size: 20px;
   font-weight: 400;
   border: 4px;
@@ -327,7 +327,7 @@ h2 {
   font-weight: 400;
 }
 #Contact-Us .submit {
-  font-family: "mycustomfont", Baloo2;
+  font-family: "mycustomfont";
   font-size: 20px;
   font-weight: 700;
   padding: 20px;
@@ -342,7 +342,7 @@ h2 {
 }
 #Contact-Us h2 {
   color: rgb(215, 123, 65);
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
 }
 #Contact-Us p {
   color: rgb(0, 62, 84);
@@ -363,7 +363,7 @@ h2 {
 }
 .footer1 h2 {
   display: block;
-  font-family: "myfont", Baloo;
+  font-family: "myfont";
 }
 .footer1 .con {
   display: flex;
@@ -391,7 +391,7 @@ h2 {
 
 @media only screen and (max-width: 575.98px) {
   @font-face {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     src: url(Baloo-Regular.ttf);
   }
   @font-face {
@@ -399,13 +399,13 @@ h2 {
     src: url(Baloo2-Regular.ttf);
   }
   p {
-    font-family: "mycustomfont", Baloo2;
+    font-family: "mycustomfont";
     font-weight: 500;
     font-size: 18px;
     line-height: 1.4;
   }
   h2 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-size: 45px;
     font-weight: 400;
   }
@@ -413,12 +413,12 @@ h2 {
     overflow: hidden;
   }
   .banner h2 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     color: rgb(0, 62, 84);
     margin: 0 0 0 8px;
   }
   .banner .we {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-weight: 400;
     font-size: 20px;
     margin: 0 0 0 10px;
@@ -427,17 +427,17 @@ h2 {
     padding: 10px;
     display: flex;
     flex-direction: column;
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
   }
   .banner h1 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     color: rgb(0, 62, 84);
     font-size: 40px;
     font-weight: 400;
     margin: 0 0 0 10px;
   }
   .banner p {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-weight: 400;
     font-size: 14px;
     color: rgb(0, 62, 84);
@@ -474,7 +474,7 @@ h2 {
     display: flex;
   }
   .banner .more p {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-size: 14px;
     font-weight: 400;
   }
@@ -493,7 +493,7 @@ h2 {
     margin: 0;
   }
   .US .wed {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-size: 20px;
     font-weight: 400;
   }
@@ -520,10 +520,10 @@ h2 {
     margin-bottom: 20px;
     font-size: 20px;
     color: white;
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
   }
   #Services h4 {
-    font-family: "mycustomfont", Baloo;
+    font-family: "mycustomfont";
     font-weight: 700;
     font-size: 23px;
   }
@@ -574,7 +574,7 @@ h2 {
     color: rgb(215, 123, 65);
   }
   #Services .card p {
-    font-family: "mycustomfont", Baloo;
+    font-family: "mycustomfont";
     font-weight: 400;
     font-size: 14px;
   }
@@ -596,7 +596,7 @@ h2 {
   #Subscribe .textimage .text .wed {
     font-size: 20px;
     font-weight: 400;
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
   }
   #Subscribe .textimage a {
     background-color: rgb(0, 62, 84);
@@ -605,7 +605,7 @@ h2 {
     height: 40px;
     text-decoration: none;
     display: flex;
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-size: 14px;
     font-weight: 500;
     justify-content: center;
@@ -622,7 +622,7 @@ h2 {
   }
   #Contact-Us .form-control {
     color: rgba(10, 49, 64, 0.5);
-    font-family: "mycustomfont", Baloo2;
+    font-family: "mycustomfont";
     font-size: 12px;
     font-weight: 400;
     border: 4px;
@@ -646,7 +646,7 @@ h2 {
     font-weight: 400;
   }
   #Contact-Us .submit {
-    font-family: "mycustomfont", Baloo2;
+    font-family: "mycustomfont";
     font-size: 14px;
     font-weight: 700;
     padding: 10px;
@@ -660,7 +660,7 @@ h2 {
     color: white;
   }
   #Contact-Us h2 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     color: rgb(215, 123, 65);
     font-size: 20px;
     font-weight: 400;
@@ -684,7 +684,7 @@ h2 {
     align-items: start;
   }
   .footer1 h2 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     display: block;
     font-size: 20px;
     font-weight: 400;
@@ -718,7 +718,7 @@ h2 {
 }
 @media only screen and (min-width: 577px) and (max-width: 992px) {
   @font-face {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     src: url(Baloo-Regular.ttf);
   }
   @font-face {
@@ -726,13 +726,13 @@ h2 {
     src: url(Baloo2-Regular.ttf);
   }
   p {
-    font-family: "mycustomfont", Baloo2;
+    font-family: "mycustomfont";
     font-weight: 500;
     font-size: 18px;
     line-height: 1.4;
   }
   h2 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-size: 45px;
     font-weight: 400;
   }
@@ -741,16 +741,16 @@ h2 {
   }
   .banner .info {
     padding: 0 35px;
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
   }
   .banner .we {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     color: rgb(0, 62, 84);
     font-weight: 400;
     font-size: 25px;
   }
   .banner h1 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     color: rgb(0, 62, 84);
     font-size: 60px;
     font-weight: 400;
@@ -758,7 +758,7 @@ h2 {
   }
   .banner p {
     font-size: 16px;
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-weight: 400;
     color: rgb(0, 62, 84);
   }
@@ -828,7 +828,7 @@ h2 {
     flex-direction: column;
   }
   .US .wed {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     color: rgb(215, 123, 65);
     font-size: 25px;
   }
@@ -851,7 +851,7 @@ h2 {
     color: white;
   }
   #Services .serve {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     margin-top: 30px;
     margin-bottom: 30px;
     color: white;
@@ -903,7 +903,7 @@ h2 {
     color: rgb(215, 123, 65);
   }
   #Services .card p {
-    font-family: "mycustomfont", Baloo;
+    font-family: "mycustomfont";
     font-size: 12px;
   }
   #Services .card h4 {
@@ -921,7 +921,7 @@ h2 {
     margin-right: 20px;
   }
   #Subscribe .textimage .text h2 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     display: block;
     font-size: 25px;
   }
@@ -933,7 +933,7 @@ h2 {
     padding: 5px;
     text-decoration: none;
     display: flex;
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-size: 14px;
     font-weight: 500;
     justify-content: center;
@@ -958,7 +958,7 @@ h2 {
   }
   #Contact-Us .form-control {
     color: rgba(10, 49, 64, 0.5);
-    font-family: "mycustomfont", Baloo2;
+    font-family: "mycustomfont";
     font-size: 16px;
     font-weight: 400;
     border: 4px;
@@ -982,7 +982,7 @@ h2 {
     font-weight: 400;
   }
   #Contact-Us .submit {
-    font-family: "mycustomfont", Baloo2;
+    font-family: "mycustomfont";
     font-size: 16px;
     font-weight: 700;
     padding: 20px;
@@ -996,7 +996,7 @@ h2 {
     color: white;
   }
   #Contact-Us h2 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     color: rgb(215, 123, 65);
     font-size: 25px;
   }
@@ -1016,7 +1016,7 @@ h2 {
     flex-direction: column;
   }
   .footer1 h2 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     display: block;
     font-size: 25px;
   }
@@ -1046,7 +1046,7 @@ h2 {
 }
 @media only screen and (min-width: 993px) and (max-width: 1024px) {
   @font-face {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     src: url(Baloo-Regular.ttf);
   }
   @font-face {
@@ -1054,13 +1054,13 @@ h2 {
     src: url(Baloo2-Regular.ttf);
   }
   p {
-    font-family: "mycustomfont", Baloo2;
+    font-family: "mycustomfont";
     font-weight: 500;
     font-size: 18px;
     line-height: 1.4;
   }
   h2 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-size: 45px;
     font-weight: 400;
   }
@@ -1069,16 +1069,16 @@ h2 {
   }
   .banner .info {
     padding: 0 35px;
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
   }
   .banner .we {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     color: rgb(0, 62, 84);
     font-weight: 400;
     font-size: 30px;
   }
   .banner h1 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     color: rgb(0, 62, 84);
     font-size: 75px;
     font-weight: 400;
@@ -1086,7 +1086,7 @@ h2 {
   }
   .banner p {
     font-size: 19px;
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-weight: 400;
     color: rgb(0, 62, 84);
   }
@@ -1157,7 +1157,7 @@ h2 {
     padding: 35px;
   }
   .US .wed {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     color: rgb(215, 123, 65);
     font-size: 30px;
   }
@@ -1180,7 +1180,7 @@ h2 {
     color: white;
   }
   #Services .serve {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     margin-top: 30px;
     margin-bottom: 30px;
     color: white;
@@ -1232,7 +1232,7 @@ h2 {
     color: rgb(215, 123, 65);
   }
   #Services .card p {
-    font-family: "mycustomfont", Baloo;
+    font-family: "mycustomfont";
     font-size: 14px;
   }
   #Services .card h4 {
@@ -1250,7 +1250,7 @@ h2 {
     margin-right: 20px;
   }
   #Subscribe .textimage .text h2 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     display: block;
     font-size: 30px;
   }
@@ -1262,7 +1262,7 @@ h2 {
     padding: 5px;
     text-decoration: none;
     display: flex;
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     font-size: 19px;
     font-weight: 500;
     justify-content: center;
@@ -1287,7 +1287,7 @@ h2 {
   }
   #Contact-Us .form-control {
     color: rgba(10, 49, 64, 0.5);
-    font-family: "mycustomfont", Baloo2;
+    font-family: "mycustomfont";
     font-size: 19px;
     font-weight: 400;
     border: 4px;
@@ -1311,7 +1311,7 @@ h2 {
     font-weight: 400;
   }
   #Contact-Us .submit {
-    font-family: "mycustomfont", Baloo2;
+    font-family: "mycustomfont";
     font-size: 19px;
     font-weight: 700;
     padding: 20px;
@@ -1325,7 +1325,7 @@ h2 {
     color: white;
   }
   #Contact-Us h2 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     color: rgb(215, 123, 65);
     font-size: 30px;
   }
@@ -1345,7 +1345,7 @@ h2 {
     flex-direction: column;
   }
   .footer1 h2 {
-    font-family: "myfont", Baloo;
+    font-family: "myfont";
     display: block;
     font-size: 30px;
   }
