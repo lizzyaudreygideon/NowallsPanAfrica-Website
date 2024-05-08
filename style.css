@@ -1450,7 +1450,7 @@ h2 {
     line-height: 30px;
   }
   .navigation nav ul li a {
-    font-size: 20px;
+    font-size: 35px;
     color: rgb(0, 62, 84);
   }
   .navigation nav #check:checked ~ ul {
