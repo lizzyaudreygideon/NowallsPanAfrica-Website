@@ -177,7 +177,7 @@ h2 {
 .US .About {
   display: flex;
   flex-direction: column;
-  padding: 50px;
+  padding: 50px 80px 50px 87px;
 }
 .US .About p {
   font-family: "mycustomfont";
