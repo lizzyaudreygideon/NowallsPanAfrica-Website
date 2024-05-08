@@ -1378,8 +1378,8 @@ h2 {
     width: 58%;
   }
   .navigation nav label i {
-    font-size: 20px;
-    margin: 40px 70px;
+    font-size: 45px;
+    margin: 70px 70px;
   }
   .navigation nav label #btn {
     display: block;
@@ -1403,7 +1403,7 @@ h2 {
     line-height: 30px;
   }
   .navigation nav ul li a {
-    font-size: 25px;
+    font-size: 60px;
     color: rgb(0, 62, 84);
   }
   .navigation nav #check:checked ~ ul {
