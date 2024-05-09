@@ -123,6 +123,9 @@ h2 {
   flex-direction: column;
   align-content: center;
 }
+.banner .pictures .rr2 {
+  width: 100%;
+}
 .banner .pile2 {
   display: flex;
   justify-content: space-between;
@@ -1379,6 +1382,22 @@ h2 {
   .footer2 img {
     -o-object-fit: cover;
        object-fit: cover;
+  }
+}
+@media only screen and (min-width: 1440px) {
+  .banner.pile2 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 99%;
+  }
+  .banner.pictures .rr2 {
+    width: 100%;
+  }
+  .US .About {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 165px 50px 87px;
   }
 }
 @media only screen and (min-width: 560px) and (max-width: 993px) {
