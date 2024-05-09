@@ -76,6 +76,9 @@ h2 {
 .navigation nav #check {
   display: none;
 }
+.navigation nav #cancel {
+  display: none;
+}
 
 .banner {
   margin: 10px 0;
@@ -370,7 +373,7 @@ h2 {
 }
 .footer1 .con i {
   margin: 5px 0 10px 0;
-  font-size: 30px;
+  font-size: 25px;
 }
 .footer1 .con p {
   color: white !important;
@@ -1388,14 +1391,15 @@ h2 {
   .navigation nav ul {
     position: absolute;
     width: 100%;
-    height: 90vh;
+    height: 100%;
     background-color: white;
-    top: 100px;
+    top: 0px;
     left: -108%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0px 20px 0;
     transition: 1s;
   }
   .navigation nav ul li {
@@ -1407,6 +1411,16 @@ h2 {
     font-size: 60px;
     color: rgb(0, 62, 84);
   }
+  .navigation nav ul li #cancel {
+    display: block;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    color: rgb(0, 62, 84);
+    cursor: pointer;
+    z-index: 9999;
+  }
   .navigation nav #check:checked ~ ul {
     left: -3%;
     z-index: 2;
@@ -1416,9 +1430,6 @@ h2 {
   }
   .navigation nav #check:checked ~ label #cancel {
     display: block;
-  }
-  .navigation nav #check:checked ~ .logo {
-    display: none;
   }
 }
 @media (max-width: 559px) {
@@ -1433,16 +1444,17 @@ h2 {
     display: block;
   }
   .navigation nav ul {
-    position: absolute;
+    position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background-color: white;
-    top: 40px;
+    top: 0px;
     left: -108%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0px 20px 0;
     transition: 1s;
   }
   .navigation nav ul li {
@@ -1454,8 +1466,18 @@ h2 {
     font-size: 35px;
     color: rgb(0, 62, 84);
   }
+  .navigation nav ul li #cancel {
+    display: block;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+    color: rgb(0, 62, 84);
+    cursor: pointer;
+    z-index: 9999;
+  }
   .navigation nav #check:checked ~ ul {
-    left: -5%;
+    left: -6%;
     z-index: 2;
   }
   .navigation nav #check:checked ~ label #btn {

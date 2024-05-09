@@ -108,6 +108,10 @@ h2{
             display: none;
         }
 
+        #cancel{
+            display: none;
+        }
+
     }  
     
 
@@ -511,7 +515,7 @@ p{
 
         i{
             margin: 5px  0 10px 0 ;
-            font-size: 30px;
+            font-size: 25px;
     
         }       
         
@@ -2096,15 +2100,15 @@ height: 400px;}
         ul{
             position: absolute;
             width: 100%;
-            height: 90vh;
+            height: 100%;
             background-color: $ordinary;
-            top: 100px;
+            top: 0px;
             left: -108%;
             display: flex;
             flex-direction: column;
             justify-content: center;
             align-items: center;
-           
+            margin: 0px 20px 0 ;
             transition:  1s  ;
     
             li{
@@ -2117,7 +2121,17 @@ height: 400px;}
                     color: $secondary;
                  
                 }
-            
+                #cancel{
+                    display: block;
+                    // position: fixed;
+                    top: 10px;
+                    right: 10px;
+                    width: 30px;
+                    height: 30px;
+                    color: $secondary;
+                    cursor: pointer;
+                    z-index: 9999;
+                  }
             }
            
         }
@@ -2139,9 +2153,9 @@ height: 400px;}
            display: block;
         }
 
-        #check:checked~ .logo{
-            display: none;
-        }
+        // #check:checked~ .logo{
+        //     display: none;
+        // }
     
        
     }
@@ -2173,17 +2187,17 @@ height: 400px;}
     }
 
     ul{
-        position: absolute;
+        position: fixed;
         width: 100%;
-        height: 100vh;
+        height: 100%;
         background-color: $ordinary;
-        top: 40px;
+        top: 0px;
         left: -108%;
         display: flex;
         flex-direction: column;
         justify-content: center;
         align-items: center;
-      
+        margin: 0px 20px 0 ;
         transition:  1s  ;
        
 
@@ -2197,6 +2211,18 @@ height: 400px;}
                 color: $secondary;
               
             }
+
+            #cancel{
+                display: block;
+                // position: fixed;
+                top: 10px;
+                right: 10px;
+                width: 30px;
+                height: 30px;
+                color: $secondary;
+                cursor: pointer;
+                z-index: 9999;
+              }
         
         }
        
@@ -2206,8 +2232,9 @@ height: 400px;}
 
    
     #check:checked~ ul{
-        left: -5%;
+        left: -6%;
         z-index: 2;
+      
     }
 
     #check:checked~ label #btn{
@@ -2216,7 +2243,7 @@ height: 400px;}
 
     #check:checked~ label #cancel{
        display: block;
-      
+   
     }
 
     #check:checked~ .logo{
