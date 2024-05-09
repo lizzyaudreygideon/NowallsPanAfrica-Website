@@ -126,6 +126,7 @@ h2 {
 .banner .pile2 {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .banner .pile2 .below1 {
   opacity: 20%;
