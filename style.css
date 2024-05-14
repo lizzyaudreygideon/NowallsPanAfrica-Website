@@ -1388,11 +1388,11 @@ h2 {
   }
 }
 @media only screen and (min-width: 1440px) {
-  .banner.pile2 {
+  .banner .pile2 {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    max-width: 99%;
+    max-width: 100%;
   }
   .banner.pictures .rr2 {
     width: 100%;
@@ -1400,13 +1400,19 @@ h2 {
   .US .About {
     display: flex;
     flex-direction: column;
-    padding: 50px 165px 50px 87px;
+    width: 55%;
+  }
+  .US {
+    margin: 60px 0 60px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .banner .pile2 .below1 {
     opacity: 20%;
     width: 22%;
     height: 60px;
-    margin-left: 9px;
+    margin-left: 0;
   }
   .banner .pile2 .below3 {
     opacity: 20%;
@@ -1414,16 +1420,16 @@ h2 {
     height: 60px;
   }
   .banner .pile2 .below2 {
-    margin-left: -4px;
+    margin-left: 0;
     opacity: 20%;
     width: 24%;
     height: 60px;
   }
   .banner .pile2 .below4 {
     opacity: 20%;
-    width: 32%;
+    width: 33%;
     height: 60px;
-    margin: 0 7px 0 0;
+    margin: 0;
   }
 }
 @media only screen and (min-width: 560px) and (max-width: 993px) {
