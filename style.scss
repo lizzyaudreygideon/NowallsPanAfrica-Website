@@ -192,7 +192,7 @@ h2{
 
         .below2{
             opacity: 20%;
-            width:24%; 
+            width:25%; 
             height:60px;
             
         
@@ -2092,7 +2092,7 @@ height: 400px;}
     // .banner.pile2 {
     //     display: flex;
     //     justify-content: center;
-    //     flex-wrap: wrap;
+    //     flex-wrap: wrap
     //     max-width: 99%;
     // }
 
@@ -2103,12 +2103,12 @@ height: 400px;}
         max-width: 100%;
     }
 
-   .banner.pictures{ .rr2{width: 100%;}}
+
 
     .US .About {
         display: flex;
         flex-direction: column;
-        // padding: 50px 165px 50px 87px;
+       
         width: 60%
     }
 
@@ -2116,27 +2116,28 @@ height: 400px;}
         margin: 60px 0 60px 0;
         display: flex;
         padding: 0 20px 0 20px;
-        // justify-content: center;
-        // align-items: center;
+       
     }
     
     .banner .pile2 .below1 {
         opacity: 20%;
         width: 22%;
         height: 60px;
-        margin-left: 0;
+        // margin: 0 5px 0 0;
+        // margin-left: 0px;
     }
 
     .banner .pile2 .below3 {
+        margin: 0 5px 0 5px;
         opacity: 20%;
         width: 17%;
         height: 60px;
     }
 
     .banner .pile2 .below2 {
-        margin-left: 0;
+        margin: 0 5px 0 5px;
         opacity: 20%;
-        width: 24%;
+        width: 23%;
         height: 60px;
     }
 
@@ -2144,7 +2145,7 @@ height: 400px;}
         opacity: 20%;
         width: 33%;
         height: 60px;
-        margin:  0;
+        // margin: 0 0 0 5px;
     }
 
     .US .image img {
@@ -2154,19 +2155,24 @@ height: 400px;}
 
     .banner .pictures {
         overflow: hidden;
-        margin: 5px;
+        margin: 5px 14px;
         display: flex;
-        justify-content: space-evenly;
+        
         align-items: end;
+       
     }
 
     .banner .pile2 {
         display: flex;
-        /* justify-content: space-evenly; */
+    //    justify-content: center;
         flex-wrap: wrap;
         max-width: 100%;
     }
 }
+
+
+    
+
 
 @media only screen and (min-width: 560px) and (max-width:993px) {
     .navigation{ 
