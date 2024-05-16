@@ -801,6 +801,7 @@ h2 {
     display: flex;
     overflow: hidden;
     align-items: start;
+    flex-wrap: nowrap;
   }
   .banner .pile2 .below1 {
     opacity: 20%;
@@ -812,7 +813,6 @@ h2 {
     opacity: 20%;
     width: 330px;
     height: 60px;
-    margin-right: 20px;
   }
   .banner .pile2 .below3 {
     display: none;
@@ -1108,9 +1108,15 @@ h2 {
     overflow: hidden;
   }
   .banner .pictures .rr {
-    width: 320px;
+    -o-object-fit: cover;
+       object-fit: cover;
+    height: 600px;
+    width: 463px;
   }
   .banner .pictures .rr2 {
+    display: none;
+  }
+  .banner .pictures .rr1 {
     display: none;
   }
   .banner .pictures img {
@@ -1119,28 +1125,32 @@ h2 {
   }
   .banner .pictures .pile {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   .banner .pictures .pile img {
-    width: 350px;
+    width: 500px;
   }
   .banner .pile2 {
     display: flex;
     overflow: hidden;
     align-items: start;
+    flex-wrap: nowrap;
   }
   .banner .pile2 .below1 {
     opacity: 20%;
-    width: 350px;
+    width: 500px;
     height: 60px;
-    margin-left: 5px;
+    margin-left: 9px;
   }
   .banner .pile2 .below2 {
     opacity: 20%;
-    width: 330px;
+    width: 402px;
     height: 60px;
-    margin-right: 20px;
+    margin-right: 10px;
   }
   .banner .pile2 .below3 {
+    display: none;
     opacity: 20%;
     width: 255px;
     height: 60px;
