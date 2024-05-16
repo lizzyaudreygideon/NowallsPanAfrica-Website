@@ -171,7 +171,7 @@ h2{
   flex-direction: column;
     align-content: center;
    }
-   .rr2{width: 100%;}
+//    .rr2{width: 100%;}
     
    }
 
@@ -2150,6 +2150,21 @@ height: 400px;}
     .US .image img {
         width: 550px;
         height: 550px;
+    }
+
+    .banner .pictures {
+        overflow: hidden;
+        margin: 5px;
+        display: flex;
+        justify-content: space-evenly;
+        align-items: end;
+    }
+
+    .banner .pile2 {
+        display: flex;
+        /* justify-content: space-evenly; */
+        flex-wrap: wrap;
+        max-width: 100%;
     }
 }
 
