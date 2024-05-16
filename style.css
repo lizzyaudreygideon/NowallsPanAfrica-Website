@@ -401,7 +401,7 @@ h2 {
      object-fit: cover;
 }
 
-@media only screen and (max-width: 575.98px) {
+@media only screen and (max-width: 565.98px) {
   @font-face {
     font-family: "myfont";
     src: url(Baloo-Regular.ttf);
@@ -729,7 +729,7 @@ h2 {
     width: 50%;
   }
 }
-@media only screen and (min-width: 577px) and (max-width: 992px) {
+@media only screen and (min-width: 567px) and (max-width: 992px) {
   @font-face {
     font-family: "myfont";
     src: url(Baloo-Regular.ttf);
