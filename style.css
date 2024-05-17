@@ -1648,6 +1648,18 @@ h2 {
   }
 }
 @media only screen and (min-width: 766.9px) and (max-width: 767.98px) {
+  .banner .info {
+    padding: 0px 60px;
+    margin-top: 0;
+    font-family: "myfont";
+  }
+  .banner h1 {
+    font-family: "myfont";
+    color: rgb(0, 62, 84);
+    font-size: 90px;
+    font-weight: 400;
+    margin: 0;
+  }
   .banner .pictures .rr1 {
     display: none;
   }
@@ -1667,9 +1679,9 @@ h2 {
   }
   .banner .pile2 .below2 {
     opacity: 20%;
-    width: 290px;
+    width: 295px;
     height: 60px;
-    margin-right: 40px;
+    margin-right: 16px;
   }
   .banner .pile2 .below3 {
     display: none;
