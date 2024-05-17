@@ -1443,10 +1443,46 @@ h2 {
     display: flex;
     align-items: end;
   }
-  .banner .pile2 {
+}
+@media only screen and (min-width: 1500px) {
+  .banner .pictures {
+    overflow: hidden;
+    margin: 5px 8px;
     display: flex;
-    flex-wrap: wrap;
-    max-width: 100%;
+    align-items: end;
+  }
+  .banner .pictures img {
+    width: 24%;
+  }
+  .banner .pictures .pile {
+    width: 26%;
+  }
+  .banner .pictures .pile img {
+    width: 97%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .banner .pile2 .below4 {
+    opacity: 20%;
+    width: 27%;
+    height: 80px;
+  }
+  .banner .pile2 .below3 {
+    margin: 0 5px 0 5px;
+    opacity: 20%;
+    width: 18%;
+    height: 80px;
+  }
+  .banner .pile2 .below2 {
+    margin: 0 5px 0 5px;
+    opacity: 20%;
+    width: 26%;
+    height: 80px;
+  }
+  .banner .pile2 .below1 {
+    opacity: 20%;
+    width: 25%;
+    height: 80px;
   }
 }
 @media only screen and (min-width: 560px) and (max-width: 993px) {
